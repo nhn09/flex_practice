@@ -1,0 +1,88 @@
+.container
+{
+    background-color: #FDAEB6;
+    height: 100vh;
+    width: 70vw;
+    padding: 0.5em;
+    margin:auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.item
+{
+    
+    margin:0.5em;
+    
+}
+
+.one{
+    flex-basis: 70px;
+    background: #9AD0C9;
+    padding: 25px 0;
+    
+}
+
+.two
+{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;  /* it will take all available space, as middle part ta boro ty use korlam */ 
+}
+
+.item-two
+{
+    background: #FA7A7E;
+    margin-left: 1em;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* box er niche anar jnno image tin ta */
+    
+    
+}
+
+.item-one
+{
+    background: #65B7B7;
+    margin-right:0.5em;
+    flex-basis: 200px; /* minimum width*/
+    padding: 150px 0;
+}
+
+.images
+{
+    
+    display: flex;
+    justify-content:space-around;
+    height: 50%;
+    padding: .5em;
+    
+}
+
+.item-two-image
+{
+    background: #D7D4D8;
+    /*height: 90%;*/
+    margin:.5em;
+    width: 35%;
+    padding: 60px 0;
+
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  
+
+
+}
